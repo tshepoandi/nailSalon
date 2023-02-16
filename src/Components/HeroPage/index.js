@@ -9,24 +9,35 @@ const HeroSection = styled.section `
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius:100px;
 `;
 
 const Button = styled.button `
-  margin-top: 20rem;
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
+  margin-top: 5rem;
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 3rem;
   background-color: #fff;
   color: #333;
   cursor: pointer;
+  &:hover {
+    color:#fff;
+    background-color:#ff00ff;
+  }
 `;
+
+const Background = styled.div`
+`
 
 function Hero() {
     return (
-    <HeroSection>
+
+      // <Background>
+      <HeroSection>
         <Button>Reserve</Button>
-    </HeroSection>
+      </HeroSection>
+    // <Background/>
     );
 }
 

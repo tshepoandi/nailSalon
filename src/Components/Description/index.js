@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const CenteredText = styled.p`
   text-align: center;
   font-size:0.65rem;
+
 `;
 
 function Description() {

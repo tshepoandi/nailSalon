@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Nav = styled.nav`
   position: fixed;
   width:100%;
-  background-color: #333;
+  background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,12 +30,13 @@ const MenuItem = styled.li`
 `;
 
 const NavLink = styled.a`
-  color: #fff;
+  color: #ff00ff;
   text-decoration: none;
   font-size: 0.7rem;
 
   &:hover {
-    text-decoration: underline;
+
+    color:#fff
   }
 `;
 
